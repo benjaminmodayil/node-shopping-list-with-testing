@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: nY2mLS+o3/Xdnmus2/6BxlJDtEoDqDrkwEgFB7m1wwnUXf9qbY0n357cdlpFZBKqvAknNZ7RXvm1yeu8Gcfif0hxl5ZIlvJETdvSl4RO66c/MPh3myQ3KWrQZSbElqJWy2nDvIlRDnQLHBhd4LgfMZS0c8BL+b+Oka4Khqap6qehTe0eNxfTxWxw+8qiSxS05CsInnKMiMfpXH/FHDj5IiNgn87KefJvQ+onM3E/aixtHHTVAaqSMWtwUOECUAzqMVocdZC92bF3zHwl4oTymouAUHpS2c9q2XmXNoefPZBWdxUG8RS4PiuL+9kB7+MjaKaXcR40IOuGMF2e92gNjWKaLR5dyglNs3R533p4EVQ0vjEqD6UB8PA2xrqRgwlWjOKKTF+Ll8c3zsyUqLwk8ONSO8QcXqPOPCBjsLojAepICMmESuJzX2FygHfyg8s6rUOXTNd5QWHc9XivOLhv7LJtqdQ5KpIcC+Gcz4/uqKZr0PCB5Aldhw0UBIhXDpU67p9PMmSlwjb9+BA6jz+yMxhXGtQfK1iT0EA5ESunb8S/ZdXJGrb6RRi0U+hgrosfYj3TVzHyBpaFOGyAamdedzbFJ+zNzekvCry2mjGWb4Ei7IgmREcyYlYIcAYtfBKs4DQlp4a5cfxaXmnMhF5tqUXgzgiPbUcYGwOwtA5+oKo=
+  app: 'glacial-beyond-72783'
+  on:
+    repo: benjaminmodayil/node-shopping-list-with-testing
